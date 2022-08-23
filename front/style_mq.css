@@ -1,0 +1,700 @@
+@media screen and (max-width: 900px) {
+    body{
+        font-size:12px;
+    }
+    
+    h1{
+        font-size:40px;
+       
+    }
+    h2{
+        font-size:27px;
+        padding-bottom: 15px;
+    }
+    
+    h3{
+        font-size:20px;
+        padding-bottom: 20px;
+    }
+
+    /*****header*****/
+.header{
+    margin: 20px 5px 10px 5px;
+}
+
+.header img{
+    max-width: 15%;
+}
+
+.header nav{
+    padding-top: 0px;
+    float: right;
+    text-decoration: none;
+}
+
+.header nav a{
+    padding-left:10px;
+    text-decoration: none;
+    color:black;
+    }
+
+.header nav a:hover{
+    text-decoration: underline;   
+    color:#FF7100; 
+    }
+
+.header nav a:active{
+    text-decoration: underline;    
+    color:#FF7100;
+    }
+
+.header nav button{
+    margin-left: 10px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.header nav button a{
+    padding-left:0px;
+    color:white; 
+}
+
+.header nav button a:hover{
+    color:white; 
+    text-decoration: none;
+}
+
+.arrow{
+    position: fixed;
+    margin:150% 0px 0px 85%;
+      }
+      .arrow img{
+        width: 70%;
+    }
+    
+
+/*****footer"*****/
+
+.footer{
+    margin: 20px 5px 10px 5px;
+}
+
+.footer img{
+    max-width: 15%;
+}
+
+.footer nav{
+    padding-top: 0px;
+    float: right;
+    text-decoration: none;
+}
+
+.footer nav a{
+    padding-left:10px;
+    text-decoration: none;
+    color:black;
+    }
+
+.footer nav a:hover{
+    text-decoration: underline;   
+    color:#FF7100; 
+    }
+
+.footer nav a:active{
+    text-decoration: underline;    
+    color:#FF7100;
+    }
+
+.footer nav button{
+    margin-left: 10px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.footer nav button a{
+    padding-left:0px;
+    color:white; 
+}
+
+.footer nav button a:hover{
+    color:white; 
+    text-decoration: none;
+}
+
+/*****div "intro"*****/
+.startIntro{
+    margin: 0px -10px;
+    padding: 10px 10px 40px 15px;
+    background-color: #530031;
+    color: white;
+text-align: left;
+}
+
+.startIntro iframe{
+    float: left;
+    width: 100%;
+    height: 210px;
+    margin-top: 30px;
+    
+}
+
+.startIntro h1{
+    margin-top: 280px;
+}
+
+.startIntro p{
+    margin: 0px 0px 10px 0px;
+    line-height: 1.6;
+    z-index: 1;
+}
+
+.startIntro button{
+    margin: 25px 0px 10px 0px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  z-index: 1;
+}
+.startIntro button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/*****div "uitleg"*****/
+.startUitleg{
+    color: black;
+    margin: 50px -10px;
+    
+    text-align: center;
+    align-items: center
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .startUitleg div{
+    margin: 10px 10% 0px 7%;
+  }
+  
+  .startUitleg .column {
+    float: left;
+    width: 90%;
+    padding: 5px 0px;
+    height: 100%;
+  }
+  
+  .startUitleg .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .startUitleg button{
+    margin: 20px 0px 10px 0px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  z-index: 1;
+}
+.startUitleg button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/*****div "de reden"*****/
+.startReden{
+    margin: 0 -10px;
+    padding: 30px 5% 70px 5%;
+    background-color: #530031;
+    color: white;
+    line-height: 1.6;
+text-align: center;
+}
+
+
+
+
+/*****div "intro"*****/
+.onderzoekIntro{
+    margin: 0px -10px;
+    padding: 10px 15px 40px 10px;
+    background-color: #530031;
+    color: white;
+text-align: right;
+}
+.onderzoekIntro iframe{
+  float: left;
+  width: 100%;
+  height: 210px;
+  margin-top: 30px;
+  margin-bottom:30px;
+  
+}
+.onderzoekIntro h1{
+    margin-top: 280px;
+}
+
+.onderzoekIntro p{
+    margin: 0px 0px 10px 0px;
+    line-height: 1.6;
+    z-index: 1;
+}
+
+
+.onderzoekIntro h1{
+    margin-top: 30px;
+    font-size:40px;
+}
+.onderzoekIntro button{
+    margin: 25px 25px 10px 0px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+}
+.onderzoekIntro button a{
+    color: white;
+    text-decoration: none;
+}
+
+/*****div "kenmerken"*****/
+.onderzoekKenmerken{
+    color: black;
+    margin: 50px -10px;
+    
+    text-align: center;
+    align-items: center
+}
+
+.onderzoekKenmerken #uitleg{
+    padding: 10px 5% 30px 5%;
+}
+
+.onderzoekKenmerken #left{
+    text-align: left;
+}
+
+.onderzoekKenmerken #right{
+    text-align: right;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .onderzoekKenmerken div{
+    margin: 10px 10px 20px 15px;
+  }
+  
+  .onderzoekKenmerken .column {
+    float: left;
+    width: 90%;
+    padding: 5px 0px;
+    height: 100%;
+  }
+
+  .onderzoekKenmerken .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*****div "TSoftware"*****/
+.onderzoekTSoftware{
+    margin: 50px -10px;
+    padding:10px 0px ;
+    background-color: #530031;
+    color: white;
+    line-height: 1.6;
+text-align: center;
+}
+
+
+.onderzoekTSoftware .column #left{
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .onderzoekTSoftware div{
+    margin: 10px 10px 20px 15px;
+  }
+  
+  .onderzoekTSoftware .column {
+    float: left;
+    width: 90%;
+    padding: 5px 0px;
+    height: 100%;
+  }
+  
+  .onderzoekTSoftware .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .onderzoekTSoftware #conclusie{
+    padding: 10px 10px 30px 10px;
+  }
+
+  /*****div "ASoftware"*****/
+.onderzoekASoftware{
+    color: black;
+    margin: 30px -10px;
+    
+    text-align: center;
+    align-items: center
+}
+
+.onderzoekASoftware .column #left{
+    text-align: left;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .onderzoekASoftware div{
+    margin: 10px 10px 20px 15px;
+  }
+  
+  .onderzoekASoftware .column {
+    float: left;
+    width: 90%;
+    padding: 5px 0px;
+    height: 100%;
+  }
+  
+  .onderzoekASoftware .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .onderzoekASoftware #conclusie{
+    padding: 10px 10px 30px 10px;
+  }
+
+  /*****div "Plugin"*****/
+.onderzoekPlugin{
+    margin: 50px -10px;
+    padding:10px 0px ;
+    background-color: #530031;
+    color: white;
+    line-height: 1.6;
+text-align: center;
+}
+
+.onderzoekPlugin .column #left{
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.onderzoekPlugin div{
+    margin: 10px 10px 20px 15px;
+}
+.onderzoekPlugin .column img{
+  max-width: 5%;
+}
+.onderzoekPlugin .column {
+    float: left;
+    width: 90%;
+    padding: 5px 0px;
+    height: 100%;
+}
+
+.onderzoekPlugin .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.onderzoekPlugin #conclusie{
+    padding: 10px 10px 30px 10px;
+}
+    
+  }
+
+  @media screen and (min-width: 900px) and (max-width: 1500px){
+    
+
+    /*****header*****/
+.header{
+    margin: 20px 5% -15px 5%;
+}
+
+.header img{
+    max-width: 15%;
+}
+
+.arrow{
+    position: fixed;
+    margin:42% 0px 0px 92%;
+      }
+      .arrow img{
+        width: 70%;
+    }
+      
+
+      .footer{
+        margin: 20px 5% 10px 5%;
+    }
+
+/*****div "intro"*****/
+.startIntro{
+  margin: 0px -10px;
+  
+  padding: 40px 0px 40px 5%;
+  background-color: #530031;
+  color: white;
+text-align: left;
+}
+
+.startIntro iframe{
+  float: right;
+  margin-top: 50px;
+  width:50%;
+  height: 450px;
+  
+}
+
+.startIntro h1{
+  margin-top: 40px;
+}
+
+.startIntro div{
+  z-index: 1;
+
+}
+
+.startIntro p{
+  margin: 0px 55% 10px 0px;
+  line-height: 1.6;
+  z-index: 1;
+}
+
+.startIntro button{
+  margin: 25px 0px 60px 0px;
+  background-color: #FF7100;
+border: none;
+color: white;
+padding: 12px 20px;
+text-align: center;
+display: inline-block;
+border-radius: 12px;
+z-index: 1;
+}
+.startIntro button a{
+  color: white;
+  text-decoration: none;
+}
+
+.startIntro button a:hover{
+color: black;
+
+}
+
+
+
+
+/*****div "uitleg"*****/
+.startUitleg{
+  color: black;
+  margin: 80px -10px;
+  padding-left: 30px 40% 70px 0%;
+  text-align: center;
+  align-items: center
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.startUitleg div{
+  margin: 10px 5% 0px 7%;
+}
+
+.startUitleg .column {
+  float: left;
+  width: 20%;
+  padding: 10px 0px;
+  height: 100%;
+}
+
+.startUitleg .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.startUitleg button{
+  margin: 30px 0px 20px 0px;
+  background-color: #FF7100;
+border: none;
+color: white;
+padding: 12px 20px;
+text-align: center;
+display: inline-block;
+border-radius: 12px;
+z-index: 1;
+}
+.startUitleg button a{
+  color: white;
+  text-decoration: none;
+}
+
+.startUitleg button a:hover{
+color: black;
+
+}
+
+/*****div "de reden"*****/
+.startReden{
+    margin: 0 -10px;
+    padding: 30px 20% 70px 20%;
+    background-color: #530031;
+    color: white;
+    line-height: 1.6;
+text-align: center;
+}
+
+
+
+/*****div "intro"*****/
+.onderzoekIntro{
+    margin: 0px -10px;
+    padding: 10px 5% 40px 0px;
+    background-color: #530031;
+    color: white;
+text-align: right;
+}
+
+
+.onderzoekIntro iframe{
+  float: left;
+  margin-top: 55px;
+  width:50%;
+  
+  
+}
+.onderzoekIntro h1{
+    margin-top: 280px;
+    font-size:70px;
+}
+
+.onderzoekIntro p{
+    margin: 0px 0px 10px 52%;
+    line-height: 1.6;
+    z-index: 1;
+}
+
+
+.onderzoekIntro h1{
+    margin-top: 30px;
+}
+.onderzoekIntro button{
+    margin: 25px 25px 10px 0px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+}
+.onderzoekIntro button a{
+    color: white;
+    text-decoration: none;
+}
+
+/*****div "kenmerken"*****/
+.onderzoekKenmerken #uitleg{
+  padding: 10px 20% 30px 20%;
+}
+.onderzoekKenmerken div{
+  margin: 0px 2% 20px 6%;
+}
+
+.onderzoekKenmerken .column {
+  height: 340px;
+}
+
+/*****div "TSoftware"*****/
+.onderzoekTSoftware div{
+  margin: 10px 2% 0px 5%;
+}
+
+.onderzoekTSoftware .column {
+  float: left;
+  width: 40%;
+  padding: 10px 0px;
+  height: 100%;
+}
+
+.onderzoekTSoftware #conclusie{
+  padding: 40px 20% 70px 20%;
+}
+  /*****div "ASoftware"*****/
+
+.onderzoekASoftware div{
+  margin: 10px 2% 0px 5%;
+}
+
+.onderzoekASoftware .column {
+  float: left;
+  width: 40%;
+  padding: 10px 0px;
+  height: 100%;
+}
+
+.onderzoekASoftware #conclusie{
+  padding: 40px 20% 70px 20%;
+}
+
+  /*****div "Plugin"*****/
+  .onderzoekPlugin div{
+    margin: 10px 2% 0px 5%;
+  }
+  
+  .onderzoekPlugin .column {
+    float: left;
+    width: 40%;
+    padding: 10px 0px;
+    height: 100%;
+  }
+  
+  .onderzoekPlugin #conclusie{
+    padding: 40px 20% 70px 20%;
+  }
+    
+  }

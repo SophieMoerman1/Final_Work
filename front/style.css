@@ -1,0 +1,545 @@
+body{
+    
+    
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:14px;
+}
+
+h1{
+    font-size:90px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: 'etna';
+    src: url('./content/etna-free-font.otf');*/
+}
+h2{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+h3{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    padding-bottom: 20px;
+}
+
+
+/*****header*****/
+.header{
+    margin: 20px 150px -50px 150px;
+}
+
+.header img{
+    max-width: 20%;
+}
+
+.header nav{
+    padding-top: 20px;
+    float: right;
+    text-decoration: none;
+}
+
+.header nav a{
+    padding-left:150px;
+    text-decoration: none;
+    color:black;
+    }
+
+.header nav a:hover{
+    text-decoration: underline;   
+    color:#FF7100; 
+    
+    }
+
+.header nav a:active{
+    text-decoration: underline;    
+    color:#FF7100;
+    }
+
+.header nav button{
+    margin-left: 150px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+
+.header nav button a{
+    padding-left:0px;
+    color:white; 
+
+}
+
+.header nav button a:hover{
+    color:black; 
+    text-decoration: none;
+    
+}
+
+/*****arrow"*****/
+.arrow{
+  position: fixed;
+  margin:500px 0px 0px 1400px;
+    }
+    
+
+/*****footer"*****/
+.footer{
+    margin: 30px 150px -40px 150px;
+}
+.footer img{
+    max-width: 10%;
+}
+.footer nav{
+    padding-top: 5px;
+    float: right;
+    text-decoration: none;
+}
+
+.footer nav a{
+    padding-left:150px;
+    text-decoration: none;
+    color:black;
+    }
+
+.footer nav a:hover{
+    text-decoration: underline;   
+    color:#FF7100; 
+    }
+
+.footer nav a:active{
+    text-decoration: underline;    
+    color:#FF7100;
+    }
+
+.footer nav button{
+    margin-left: 150px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.footer nav button a{
+    padding-left:0px;
+    color:white; 
+}
+
+.footer nav button a:hover{
+    color:black; 
+    text-decoration: none;
+}
+
+
+/*****div "intro"*****/
+.startIntro{
+    margin: 0px -10px;
+    
+    padding: 40px 0px 40px 180px;
+    background-color: #530031;
+    color: white;
+text-align: left;
+}
+
+.startIntro iframe{
+    float: right;
+    margin-top: 50px;
+    width:840px;
+    height: 472.5px;
+    
+}
+
+.startIntro h1{
+    margin-top: 40px;
+}
+
+.startIntro div{
+    z-index: 1;
+
+}
+
+.startIntro p{
+    margin: 0px 850px 10px 0px;
+    line-height: 1.6;
+    z-index: 1;
+}
+
+.startIntro button{
+    margin: 25px 0px 60px 0px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  z-index: 1;
+}
+.startIntro button a{
+    color: white;
+    text-decoration: none;
+}
+
+.startIntro button a:hover{
+  color: black;
+ 
+}
+
+
+
+/*****div "uitleg"*****/
+.startUitleg{
+    color: black;
+    margin: 80px -10px;
+    padding-left: 30px 450px 70px 450px;
+    text-align: center;
+    align-items: center
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .startUitleg div{
+    margin: 10px 60px 0px 100px;
+  }
+  
+  .startUitleg .column {
+    float: left;
+    width: 20%;
+    padding: 10px 0px;
+    height: 300px;
+  }
+  
+  .startUitleg .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .startUitleg button{
+    margin: 30px 0px 20px 0px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  z-index: 1;
+}
+.startUitleg button a{
+    color: white;
+    text-decoration: none;
+}
+
+.startUitleg button a:hover{
+  color: black;
+ 
+}
+
+
+/*****div "de reden"*****/
+.startReden{
+    margin: 0 -10px;
+    padding: 30px 450px 70px 450px;
+    background-color: #530031;
+    color: white;
+    line-height: 1.6;
+text-align: center;
+}
+
+
+
+
+
+/*****div "intro"*****/
+.onderzoekIntro{
+    margin: 0 -10px;
+    
+    padding: 50px 180px 30px 0px;
+    background-color: #530031;
+    color: white;
+text-align: right;
+}
+.onderzoekIntro iframe{
+  float: left;
+  margin-top: 50px;
+  width:800px;
+  height: 540px;
+  
+}
+.onderzoekIntro p{
+    margin: 0px 0px 10px 52%;
+    line-height: 1.6;
+}
+
+.onderzoekIntro h1{
+    margin-top: 30px;
+    font-size:80px;
+}
+.onderzoekIntro button{
+    margin: 25px 0px 25px 50px;
+    background-color: #FF7100;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 12px 20px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+}
+.onderzoekIntro button a{
+    color: white;
+    text-decoration: none;
+}
+
+.onderzoekIntro button a:hover{
+  color: black;
+ 
+}
+
+
+
+/*****div "kenmerken"*****/
+.onderzoekKenmerken{
+    color: black;
+    margin: 40px -10px;
+    text-align: center;
+    align-items: center
+}
+
+.onderzoekKenmerken #uitleg{
+    padding: 10px 450px 30px 450px;
+    
+}
+
+.onderzoekKenmerken #left{
+    text-align: left;
+}
+
+.onderzoekKenmerken #right{
+    text-align: right;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .onderzoekKenmerken div{
+    margin: 0px 40px 20px 70px;
+  }
+  
+  .onderzoekKenmerken .column {
+    float: left;
+    width: 40%;
+    padding: 10px 0px;
+    height: 250px;
+  }
+  
+  .onderzoekKenmerken .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/*****div "TSoftware"*****/
+.onderzoekTSoftware{
+    margin: 80px -10px 20px -10px;
+    padding:10px 0px ;
+    background-color: #530031;
+    color: white;
+    line-height: 1.6;
+text-align: center;
+}
+.onderzoekTSoftware h2{
+  padding-bottom: 0px;
+}
+
+.onderzoekTSoftware a{
+  text-decoration: none;
+  color: white;
+}
+
+.onderzoekTSoftware .column img{
+  max-width: 5%;
+}
+
+.onderzoekTSoftware .column #left{
+    text-align: left;
+}
+
+.onderzoekTSoftware .column #right{
+    text-align: right;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+  .onderzoekTSoftware div{
+    margin: 10px 50px 0px 50px;
+  }
+  
+  .onderzoekTSoftware .column {
+    float: left;
+    width: 25%;
+    padding: 10px 0px;
+    height: 550px;
+  }
+  
+  .onderzoekTSoftware .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .onderzoekTSoftware #rating{
+    background-color: #FF7100;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 18px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    
+  }
+  .onderzoekTSoftware #conclusie{
+    padding: 100px 350px 70px 350px;
+  }
+  
+  
+
+  /*****div "ASoftware"*****/
+.onderzoekASoftware{
+    margin: 0px -10px;
+    padding:10px 0px ;
+    
+    line-height: 1.6;
+text-align: center;
+}
+.onderzoekASoftware h2{
+  padding-bottom: 0px;
+}
+
+.onderzoekASoftware a{
+  text-decoration: none;
+  color: Black;
+}
+.onderzoekASoftware .column img{
+  max-width: 5%;
+}
+.onderzoekASoftware .column #left{
+    text-align: left;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+  .onderzoekASoftware div{
+    margin: 10px 50px 0px 50px;
+  }
+  
+  .onderzoekASoftware .column {
+    float: left;
+    width: 25%;
+    padding: 10px 0px;
+    height: 750px;
+  }
+  
+  .onderzoekASoftware .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .onderzoekASoftware #conclusie{
+    padding: 40px 350px 70px 350px;
+  }
+
+  .onderzoekASoftware #rating{
+    background-color: #FF7100;
+    border: none;
+    color: white;
+    font-weight: 500;
+    padding: 10px 18px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 12px;
+    
+  }
+
+  /*****div "Plugin"*****/
+.onderzoekPlugin{
+  margin: 0px -10px 20px -10px;
+  padding:10px 0px ;
+  background-color: #530031;
+  color: white;
+  line-height: 1.6;
+text-align: center;
+}
+
+.onderzoekPlugin a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.onderzoekPlugin .column #left{
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.onderzoekPlugin div{
+  margin: 10px 50px 0px 50px;
+}
+.onderzoekPlugin .column img{
+  max-width: 5%;
+}
+.onderzoekPlugin .column {
+  float: left;
+  width: 25%;
+  padding: 10px 0px;
+  height: 550px;
+}
+
+.onderzoekPlugin .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.onderzoekPlugin #conclusie{
+  padding: 80px 350px 70px 350px;
+}
+
+.onderzoekPlugin #rating{
+  background-color: #FF7100;
+  border: none;
+  color: white;
+  font-weight: 500;
+  padding: 10px 18px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  
+}
